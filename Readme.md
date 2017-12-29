@@ -12,4 +12,4 @@
 
 <br>
 
->**`NOTE`**: GoLang is not much of an object oriented language, it has concepts of object oriented paradigm but is not well suited object oriented progarmming.
+>**`NOTE`**: GoLang is not much of an object oriented language, it has concepts of object oriented paradigm but is not well suited for object oriented progarmming.
