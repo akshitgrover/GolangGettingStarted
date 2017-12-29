@@ -18,6 +18,13 @@ func main() {
 
 	myAddInst := newAddStruct([]int{1, 2, 3, 4, 5, 6, 7})
 	fmt.Println(myAddInst.findSum(11))
+
+	sayInit()
+}
+
+func sayInit() {
+	myStruct_ := compostStructChild{compostStructParent{"Val1", "Val2"}, "Val1.1"}
+	myStruct_.print()
 }
 
 type myStruct struct {
@@ -52,4 +59,18 @@ func (asp *addStruct) findSum(offSet int) int {
 		result += val
 	}
 	return result + offSet
+}
+
+type compostStructParent struct {
+	myField_  string
+	myField__ string
+}
+
+type compostStructChild struct {
+	compostStructParent
+	myField__ string
+}
+
+func (sp *compostStructChild) print() {
+	fmt.Println(sp.myField_, sp.myField__)
 }
