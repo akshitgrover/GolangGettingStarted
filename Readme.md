@@ -2,13 +2,13 @@
 
 ## This Repo is about getting to know the basics of golang like:
 <br>
->1. Datatypes<br>
-2. Conditionals<br>
-3. Functions<br>
-4. Loops<br>
-5. Structures (Object Oriented)<br>
-6. GoRoutines<br>
-7. Channels<br>
+**1.** Datatypes<br>
+**2.** Conditionals<br>
+**3.** Functions<br>
+**4.** Loops<br>
+**5.** Structures (Object Oriented)<br>
+**6.** GoRoutines<br>
+**7.** Channels<br>
 
 <br>
 
