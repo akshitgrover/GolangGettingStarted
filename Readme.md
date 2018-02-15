@@ -1,6 +1,6 @@
 # Getting Started With Golang
 
->**Feel Free To Contribute If You Think Somethingh Is Left Out Of The Basics.**
+>**Feel Free To Contribute If You Think Something Is Left Out Of The Basics.**
 
 ## This Repo is about getting to know the basics of golang like:
 <br>
@@ -13,6 +13,7 @@
 7. Channels<br>
 8. Reader Interface<br>
 9. http Implementation<br>
+10. Basic Client Server Implementation<br>
 
 <br>
 
